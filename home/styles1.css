@@ -46,6 +46,54 @@
 
 }
 
+#chats {
+  display: flex;          /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;    /* Center the items horizontally */
+  text-align: center;     /* Center the text */
+}
+
+.Cimg {
+  margin-bottom: 5px; /* Add some space between the image and the text */
+  width: 30px; /* Set width for the image as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+#calls {
+  display: flex;          /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;    /* Center the items horizontally */
+  text-align: center;     /* Center the text */
+}
+
+.callsImg {
+  margin-bottom: 5px; /* Add some space between the image and the text */
+  width: 30px; /* Set width for the image as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.tabslist {
+  display: flex;               /* Use flexbox for layout */
+  justify-content: space-around; /* Space items evenly across the container */
+  list-style-type: none;      /* Remove default list styling */
+  padding: 0;                 /* Remove default padding */
+  margin: 0;                  /* Remove default margin */
+}
+
+.tabslist li {
+  display: flex;              /* Use flexbox for list items */
+  flex-direction: column;     /* Stack image and text vertically */
+  align-items: center;        /* Center items horizontally */
+  text-align: center;         /* Center text */
+}
+
+.Cimg, .callsImg {
+  margin-bottom: 5px;         /* Space between image and text */
+  width: 30px;                /* Adjust width of images as necessary */
+  height: auto;               /* Maintain aspect ratio */
+}
+
+
 .input-container {
   position: relative; /* Make the container relative for positioning the icon */
   width: 300px;       /* Set the width of the container */

@@ -13,8 +13,11 @@
   }
 
   .three-dots{
-    display: block;           text-align: right;
-    padding: 15px;
+    display: block;           
+    text-align: right;
+    padding:  7.5px;
+    padding-right: 0px;
+    padding-left: 10px ;
     
   }
 
@@ -23,7 +26,8 @@
     height: 24px;  /* Adjust the size of the icon */
     cursor: pointer;  /* Make the icon clickable (shows pointer) */
     margin-left: auto; 
-    margin-right: 16px;   
+    margin-right: 0px;  
+    padding-right: 0px;  
 
 }
 
@@ -190,15 +194,14 @@
     outline: 1px solid slategrey;
   }
   
-  /* Elements */
-  /* Options */
+  
   .option {
     background: white;
     padding: 0;
     width: 170px;
     box-sizing: border-box;
     box-shadow: 1px 1px 10px #777;
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 153px;
     z-index: 100;
